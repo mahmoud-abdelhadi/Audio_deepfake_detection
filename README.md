@@ -1,1 +1,2 @@
 # Audio_deepfake_detection
+In this project, I utilized the VGG-16 deep learning model to classify audio samples from the Fake or Real (FoR) dataset. The dataset includes real and fake audio utterances, processed in different subsets (for-norm, for-2s, and for-rerecording). The workflow involves loading and preprocessing audio data using librosa, building a TensorFlow pipeline, and training the VGG-16 model for classification. The goal is to detect fake audio effectively while leveraging pre-trained models for better performance and scalability.
